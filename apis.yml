@@ -1,7 +1,15 @@
 aid: floreo
 name: Floreo
-description: Floreo is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Floreo is a research-based virtual reality (VR) digital therapeutics company
+  that delivers immersive lessons teaching social, behavioral, communication, and life
+  skills to neurodiverse individuals, including autistic children and adults. The platform
+  runs across mobile (iPhone with Google Cardboard) and standalone VR headsets (Meta
+  Quest 2/3/Pro, PICO), with a companion clinician portal for supervised sessions, progress
+  tracking, and telehealth-style delivery. Floreo holds an FDA Breakthrough Device
+  designation and participates in the FDA Total Product Life Cycle Advisory Program (TAP),
+  and works with schools, behavioral-health providers, Medicaid programs, and research
+  partners. It is tracked in the API Evangelist network as a portfolio company of Bloomberg
+  Beta; the company publishes no public API, developer portal, or SDK at this time.
 url: https://raw.githubusercontent.com/api-evangelist/floreo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,31 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://floreovr.com/hubfs/Floreo-Default-Featured-Image.jpg
 tags:
 - Company
+- Virtual Reality
+- Digital Therapeutics
+- Behavioral Health
+- Healthcare
+- Autism
+- Neurodiversity
+- Telehealth
+- Education
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/floreo-domain-security.yml
 - type: Website
   url: https://floreovr.com/
+- type: Blog
+  url: https://floreovr.com/learning-center/blog
+- type: Support
+  url: https://floreovr.com/support
+- type: Pricing
+  url: https://floreovr.com/pricing
+- type: SignUp
+  url: https://floreovr.com/signup
+- type: Login
+  url: https://portal.floreovr.com/
+- type: TermsOfService
+  url: https://floreovr.com/terms
+- type: PrivacyPolicy
+  url: https://floreovr.com/privacy
+- type: Research
+  url: https://floreovr.com/research
+- type: Partners
+  url: https://floreovr.com/floreo-partners
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
